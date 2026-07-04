@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "tasks": {
+    "install": {
+      "name": "Install",
+      "command": "npm install",
+      "runAtStart": true
+    },
+    "dev": {
+      "name": "Dev Server (client + mock WebSocket server)",
+      "command": "npm run dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 5173
+      }
+    }
+  }
+}
