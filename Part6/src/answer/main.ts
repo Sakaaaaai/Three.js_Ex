@@ -1,5 +1,5 @@
 import GUI from 'lil-gui';
-import '../style.css';
+import './style.css';
 import { createScene } from './scene/createScene';
 import { SensorPointCloud } from './entities/SensorPointCloud';
 import { connectSensorSocket } from './utils/connectSensorSocket';

@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import '../style.css';
+import './style.css';
 import { createGltfLoader } from './loaders/createGltfLoader';
 import { measureVariant, type ModelVariant, type MeasurementResult } from './utils/measureVariant';
 

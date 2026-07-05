@@ -1,6 +1,6 @@
 import GUI from 'lil-gui';
-import '../style.css';
-import rawCsv from '../data/depth-scan.csv?raw';
+import './style.css';
+import rawCsv from './data/depth-scan.csv?raw';
 import { createScene } from './scene/createScene';
 import { parseDepthPoints } from './utils/parseDepthCsv';
 import { HeatmapPointCloud } from './entities/HeatmapPointCloud';

@@ -1,4 +1,4 @@
-import '../style.css';
+import './style.css';
 import { createScene } from './scene/createScene';
 import { ParticleField } from './entities/ParticleField';
 import { createStatsPanel } from './utils/perf';

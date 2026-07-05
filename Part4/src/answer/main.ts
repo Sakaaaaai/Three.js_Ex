@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import GUI from 'lil-gui';
-import '../style.css';
+import './style.css';
 import { rippleVertexShader } from './shaders/rippleVertex';
 import { rippleFragmentShader } from './shaders/rippleFragment';
 
